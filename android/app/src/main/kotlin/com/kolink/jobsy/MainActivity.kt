@@ -1,0 +1,5 @@
+package com.kolink.jobsy
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity()
