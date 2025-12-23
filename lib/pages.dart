@@ -17,7 +17,6 @@ import 'package:jobsy/models/jenis_pekerjaan.dart';
 import 'package:jobsy/models/kategori_perusahaan.dart';
 import 'package:jobsy/models/kebijakan.dart';
 import 'package:jobsy/models/kelamin.dart';
-import 'package:jobsy/pages.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:supercharged/supercharged.dart';
@@ -73,9 +72,9 @@ part 'features/signin/signin.dart';
 
 part 'features/navigation/navigation.dart';
 
-part 'features/beranda/beranda.dart';
+part 'features/dashboard/beranda.dart';
 
-part 'features/beranda/beranda_controller.dart';
+part 'features/dashboard/beranda_controller.dart';
 
 part 'features/obrolan/obrolan.dart';
 
@@ -89,31 +88,32 @@ part 'features/profil/profil_controller.dart';
 
 part 'features/navigation/navigation_controller.dart';
 
-part 'features/beranda/status/review.dart';
+part 'features/dashboard/status/review.dart';
 
-part 'features/beranda/status/aktif.dart';
+part 'features/dashboard/status/aktif.dart';
 
-part 'features/beranda/status/nonaktif.dart';
+part 'features/dashboard/status/nonaktif.dart';
 
-part 'features/beranda/status/draf.dart';
+part 'features/dashboard/status/draf.dart';
 
-part 'features/beranda/filters/baru.dart';
+part 'features/dashboard/filters/baru.dart';
 
-part 'features/beranda/filters/darirumah.dart';
+part 'features/dashboard/filters/darirumah.dart';
 
-part 'features/beranda/filters/lulusanbaru.dart';
+part 'features/dashboard/filters/lulusanbaru.dart';
 
-part 'features/beranda/filters/untukkamu.dart';
+part 'features/dashboard/filters/untukkamu.dart';
 
-part 'features/beranda/detail/detail.dart';
+part 'features/dashboard/detail/detail.dart';
 
-part 'features/beranda/detail/detail_controller.dart';
+part 'features/dashboard/detail/detail_controller.dart';
 
 part 'features/form/form.dart';
 
 part 'features/form/form_controller.dart';
 
 part 'features/form/pemberi_kerja/rekruter/rekruter.dart';
+
 part 'features/form/pemberi_kerja/rekruter/rekruter_controller.dart';
 
 part 'features/form/pemberi_kerja/review_pemberi_kerja/review.dart';
@@ -124,7 +124,7 @@ part 'features/form/pemberi_kerja/job/job.dart';
 
 part 'features/form/pemberi_kerja/job/job_controller.dart';
 
-part 'features/beranda/detail/perusahaan/perusahaan.dart';
+part 'features/dashboard/detail/perusahaan/perusahaan.dart';
 
 part 'features/profil/ubah_profil/ubah_profil.dart';
 
